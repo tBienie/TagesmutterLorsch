@@ -35,8 +35,8 @@ footer{
     bottom: 2rem;
     left: 2rem;
     background: var(--color);
-    height: 4rem;
-    width: 4rem;
+    height: 8rem;
+    width: 8rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -226,6 +226,11 @@ p{
     body{
         margin: 0;
         padding: 0;
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 4rem;
     }
 
     .body-container{
@@ -263,8 +268,8 @@ p{
         right: 2rem;
         background: var(--color-accent);
         border: 0.2rem solid var(--color-contrast);
-        height: 4rem;
-        width: 4rem;
+        height: 8rem;
+        width: 8rem;
         border-radius: 50%;
     }
 
@@ -289,6 +294,3 @@ p{
     }
 }
 
-.logo{
-    color: var(--color-accent);
-}
