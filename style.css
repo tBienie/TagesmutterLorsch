@@ -156,7 +156,6 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 100ms;
     background: var(--color-accent);
     filter: brightness(110%);
     border: 3px solid var(--color-contrast);
@@ -290,6 +289,9 @@ p{
     .left-content{
         border: none;
         width: 100%;
+    }
+    footer{
+        margin-top: 0;
     }
 }
 
