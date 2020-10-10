@@ -32,8 +32,8 @@ footer{
 .nav{
     position: fixed;
     z-index: 2;
-    bottom: 2rem;
-    left: 2rem;
+    bottom: 4rem;
+    left: 4rem;
     background: var(--color);
     height: 8rem;
     width: 8rem;
@@ -264,8 +264,8 @@ p{
     .show > .menu-display{
         display: flex;
         position: fixed;
-        top: 2rem;
-        right: 2rem;
+        top: 4rem;
+        right: 4rem;
         background: var(--color-accent);
         border: 0.2rem solid var(--color-contrast);
         height: 8rem;
