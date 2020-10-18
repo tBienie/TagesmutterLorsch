@@ -21,6 +21,15 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.logo-img{
+    max-width: 40%;
+    float: left;
+    margin: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    height: 20rem;
+}
+
 footer{
     position: relative;
     left: 0;
@@ -79,6 +88,10 @@ footer > a{
     left: 0;
     animation: 20s slider infinite;
     display: flex;
+}
+
+li > p{
+    text-align: left;
 }
 
 @keyframes slider {
@@ -245,6 +258,14 @@ p{
         
     }
 }
+
+.page-title{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
 
 @media screen and (max-width: 1024px){
     body{
