@@ -297,6 +297,14 @@ p{
         display: none;
     }
 
+    .logo-img{
+        display: none;
+    }
+
+    .page-title{
+        color: black;
+    }
+
     .nav > .links > .link:first-child{
         display: block;
         font-family: 'Indie Flower', cursive;
